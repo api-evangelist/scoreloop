@@ -1,7 +1,30 @@
 aid: scoreloop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scoreloop.png
 name: Scoreloop
-description: Scoreloop is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Scoreloop was a Munich, Germany based mobile social gaming company that
+  provided a cross-platform SDK adding social features to mobile games -
+  online leaderboards, achievements, player challenges, friend invites, and
+  in-game virtual currency and monetization. The Scoreloop SDK supported
+  Android, iOS, Windows Phone, Samsung Bada, Marmalade/AirPlay, and Unity 3D,
+  and at its peak was used by more than 3,000 game developers. The company was
+  backed by earlybird and was acquired by Research In Motion (BlackBerry) in
+  2011; the standalone Scoreloop platform and its developer service were
+  subsequently wound down. This profile is retained as a historical portfolio
+  lead - there is no live public API, developer portal, or documentation
+  surface remaining (the scoreloop.com domain now serves a suspended page and
+  no developer host resolves), so no API artifacts are available to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/scoreloop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,26 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Social
+- Mobile
+- SDK
+- Leaderboards
+- Developer Platform
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
